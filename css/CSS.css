@@ -1,0 +1,541 @@
+@charset "utf-8";
+/*@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);*/
+/*  Reset CSS  */
+* { margin:0;  padding:0; }
+a { outline:0; text-decoration: none; color: inherit;}
+img { border:0;}
+body { 
+ background-color: #E2E8EF;
+ font-family: sans-serif;
+ -webkit-font-smoothing: antialiased;
+}
+ul {list-style: none;}
+
+
+/*0. 키움 상단 메뉴*/
+.kh-1 {
+  width: 100%; 
+  height: 20px; 
+  position: fixed; 
+  z-index: 3; 
+  top: 0px; 
+  background-color: #000000;
+}
+
+.kh-2 {
+  width: 100%; 
+  height: 42px; 
+  position: fixed; 
+  z-index: 3; 
+  top: 0px; 
+  background-image: url(../img/kh-2-bg.png);
+}
+
+.kh-2-menu-wrap {
+  margin: 0px auto; 
+  position: relative; 
+  overflow: hidden; 
+  text-align: justify; 
+  text-align-last: justify; 
+  padding-right: 10px; 
+  color: white; 
+  font-weight: 400; 
+  font-size: 14px;
+}
+
+.kh-2-left-back {
+  position: absolute; 
+  top: 0px; left: 0px; 
+  width: 5px; 
+  height: 42px; 
+  background-color: #2A3872;
+}
+
+.kh-2-img img{
+  float: left; 
+  margin-left: 5px; 
+  margin-right: 10px;
+}
+
+.kh-2-menu { 
+  display: inline-block; 
+  position: relative; 
+  cursor: pointer; 
+  margin-top: 13px; 
+}
+
+.ab-cen {
+  position: absolute; 
+  left: 50%; 
+  top: 50%; 
+  transform: translate(-50%, -50%);
+}
+
+
+
+/*1. Visual Banner*/
+
+.wrap {
+  margin-top: 42px;
+  margin-bottom: 83px;
+}
+
+.v-b { 
+  width: 100%; 
+  height: 220px; 
+  background-image: url(/img/index_header.jpg);
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+}
+
+
+/*2. Boolio Intro*/
+.b-i {
+  margin: 10px 10px;
+  height: 610px;
+  background-color: white;
+  box-shadow: 3px 3px 3px #CFCFCF;
+  position: relative;
+  overflow: hidden;
+}
+
+.line {
+  border: 5px solid #FF5F00;
+  border-bottom: 0px;
+  box-sizing:border-box;
+}
+
+.logo {
+  width: 40%;
+  height: 15%%;
+  transform: translateX(75%);
+  margin-top: 30px;
+}
+
+.b-i-1 {
+  font-size: 13px;
+  font-weight: 200;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.b-i-2 {
+  margin-top: 30px;
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ff5f00; 
+  text-align: left;
+}
+
+.b-i-wm>img {
+  width: 100%;
+  height: 100%;
+}
+
+.b-i-rb {
+  position: absolute;
+  z-index: 1;
+  right: 5px;
+  bottom: 60px;;
+  width: 150px;
+}
+
+.b-i-talk {
+  padding: 5px;
+  position: absolute;
+  bottom: 10px;
+  z-index: 2;
+}
+
+.talk {
+  position: relative;
+  float: right;
+  right: -1px;
+  width: 20px;
+  height: 20px;
+  transform: rotate(90deg)
+}
+
+.b-i-3 {
+  position: relative;
+  float: right;
+  color: white;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 20px;
+  text-align: justify;
+  background-color: #FF5F00;
+  border-radius: 10px 0px 10px 10px;
+  padding: 10px;
+}
+
+
+/*3. Why Boolio?*/
+
+.w-b {
+  margin: 10px 10px;
+  background-color: white;
+  box-shadow: 3px 3px 3px #CFCFCF;
+  position: relative;
+  overflow: hidden;
+}
+
+.w-b-1 {
+  font-size: 25px;
+  color: #ff5f00; 
+  font-weight: 600;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.small-line {
+  width: 25px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 4px solid #FF5F00;
+  border-bottom: 0px;
+  box-sizing:border-box;
+}
+
+.wb-ul {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.w-b-img-1 {
+  width: 85px;
+}
+
+.w-b-img-2 {
+  width: 60px;
+}
+
+.w-b-img-3 {
+  width: 40px; 
+}
+
+.w-b-img-4 {
+  width: 60px; 
+}
+
+
+.w-b-t {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.w-b-c {
+  width: 90%;
+  font-size: 13px;
+  color: #999;
+  font-weight: 300;
+  line-height: 19px;
+  margin-top: 10px;
+  margin-bottom: 35px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.w-b-c>p {
+  color: #FF5F00;
+  margin-top: 5px;
+  font-weight: 300;
+}
+
+
+/*4. 어떻게 불리오? */
+
+/*
+.h-b {
+  margin: 10px 10px;
+  background-color: white;
+  box-shadow: 3px 3px 3px #CFCFCF;
+  position: relative;
+  overflow: hidden;
+}
+
+.h-b-1 {
+  font-size: 25px;
+  color: #ff5f00; 
+  font-weight: 600;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+*/
+
+.s-r {
+  position: absolute;
+  width: 40%;
+  top: 40px;
+  left: -33px;
+  transform: rotate(40deg);
+}
+
+.r-t {
+  position: relative;
+  overflow: hidden;
+  margin-top: 30px;
+  padding-right: 15px;
+}
+
+.r-t-1 {
+  position: relative;
+  float: right;
+  transform: translateY(-1px);
+  width: 20px;
+  height: 20px;
+}
+
+.r-t-2 {
+  position: relative;
+  float: right;
+  color: white;
+  font-weight: 400;
+  line-height: 20px;
+  width: 140px;
+  text-align: justify;
+  background-color: #FF5F00;
+  border-radius: 0px 10px 10px 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 20px;
+}
+
+
+.h-b-t-w {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding-left: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.h-b-t-1 {
+  position: relative;
+  float: left;
+  width: 35px;
+}
+
+.h-b-t-2 {
+  width: 83%;
+  position: relative;
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.h-b-t-3 {
+  margin-top: 8px;
+  font-size: 13px;
+  font-weight: 200;
+  line-height: 18px;
+  color: #999;
+}
+
+.h-b-t-4 {
+  position: absolute;
+  color: #999;
+  font-size: 13px;
+  right: 20px;
+  top: 0px;
+}
+
+.h-b-3 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.h-b-3>img {
+  width: 100%;
+  height: 100%;
+}
+
+.h-b-4 {
+  overflow: hidden;
+  position: relative;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.h-b-4>img {
+  width: 100%;
+  height: 100%;
+}
+
+/*5. 불리오 이용방법 */
+
+.b-u {
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+  border: 1px solid #FF5F00;
+}
+
+.b-u-t {
+  color: white;
+  font-weight: bold;
+  background-color: #FF5F00;
+  padding-top: 5px;
+  padding-bottom: 5px;  
+}
+
+.b-u-c {
+  position: relative;
+  overflow: hidden;
+}
+
+
+.b-u-c-img-1 {
+  display: block;
+  margin-top: 20px;
+  width: 70%;
+  transform: translateX(30%);
+}
+
+.b-u-arrow {
+  width: 30px;
+  display: block;
+  margin: 20px auto;
+}
+
+
+.b-u-c>ul {
+  position: relative;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.b-u-c>ul>li {
+  margin: 10px auto;
+  display: block;
+  width: 90px;
+  height: 90px;
+  float: left;
+  border: 1px solid lightgray;
+  position: relative;
+  overflow: hidden;
+}
+
+.b-u-c>ul>li>p {
+  padding: 10px;
+  color: gray;
+  font-weight: 200;
+}
+
+.b-u-c>p{
+  color: #FF5F00;
+  opacity: 0.7;
+  padding-bottom: 5px;
+}
+
+.b-u-hand {
+  width: 40px;
+  position: absolute;
+  top: 100px;
+  right: 10px;
+}
+
+.l-1>img {
+  width: 20px;
+  display: inline-block;
+}
+
+.l-2>img {
+  width: 20px;
+  display: inline-block;
+  float: left;
+  transform: translateX(130%);
+}
+
+.l-3>img {
+  width: 20px;
+  display: inline-block;
+  float: left;
+  transform: translateX(80%);
+}
+
+.b-u-arrow-2 {
+  display: inline-block;
+  width: 65%;
+}
+
+
+/*6. 불리오 가입안내 */
+
+.info {
+  position: relative;
+  overflow: hidden;
+  margin: 30px 10px;; 
+  border-top: 1px solid #FF5F00;
+  background-color: #F6F6F6;
+}
+
+
+.info-1, .info-2, .info-3 {
+  overflow: hidden;
+  position: relative;
+  border-bottom: 1px solid #EAEAEA;
+}
+
+.info-1-left, .info-2-left, .info-3-left {
+  width: 30%;
+  background-color: #F6F6F6;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  float: left;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.info-1-right, .info-2-right, .info-3-right {
+  width: 68%;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 2%;
+  position: relative;
+  float: left;
+  font-size: 12px;
+  font-weight: 200;
+  text-align: left;
+  border-bottom: 3px solid white;
+  line-height: 20px;
+}
+
+.info-3-right>ol {
+  padding-left: 10px;   
+}
+
+/*키움 하단 메뉴*/
+.kh-3 {
+  height: 20px; 
+  width: 100%; 
+  position: fixed; 
+  z-index: 3; 
+  bottom: 51px; 
+  background-color: #E6E6E6
+}
+.kh-4 {
+  height: 51px;
+  width: 100%; 
+  position: fixed; 
+  z-index: 3; 
+  bottom: 0px; 
+  background-color: #747474;
+}
