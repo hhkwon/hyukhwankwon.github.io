@@ -18,7 +18,7 @@ ul {list-style: none;}
   width: 100%; 
   height: 42px; 
   position: relative; 
-  z-index: 0; 
+  z-index: 3; 
   top: 0px; 
   background-image: url(../img/kh-2-bg.png);
 }
@@ -520,16 +520,16 @@ ul {list-style: none;}
 .kh-3 {
   height: 20px; 
   width: 100%; 
-  position: relative; 
-  z-index: 0; 
-  bottom: 0px; 
+  position: absolute; 
+  z-index: 3; 
+  bottom: 51px; 
   background-color: #E6E6E6
 }
 .kh-4 {
   height: 51px;
   width: 100%; 
-  position: relative; 
-  z-index: 0; 
+  position: absolute; 
+  z-index: 3; 
   bottom: 0px; 
   background-color: #747474;
 }
