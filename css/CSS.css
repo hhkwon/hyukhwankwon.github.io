@@ -13,19 +13,11 @@ ul {list-style: none;}
 
 
 /*0. 키움 상단 메뉴*/
-.kh-1 {
-  width: 100%; 
-  height: 20px; 
-  position: fixed; 
-  z-index: 3; 
-  top: 0px; 
-  background-color: #000000;
-}
 
 .kh-2 {
   width: 100%; 
   height: 42px; 
-  position: fixed; 
+  position: relative; 
   z-index: 3; 
   top: 0px; 
   background-image: url(../img/kh-2-bg.png);
@@ -76,8 +68,10 @@ ul {list-style: none;}
 /*1. Visual Banner*/
 
 .wrap {
+/*
   margin-top: 42px;
   margin-bottom: 83px;
+*/
 }
 
 .v-b { 
@@ -526,7 +520,7 @@ ul {list-style: none;}
 .kh-3 {
   height: 20px; 
   width: 100%; 
-  position: fixed; 
+  position: absolute; 
   z-index: 3; 
   bottom: 51px; 
   background-color: #E6E6E6
@@ -534,7 +528,7 @@ ul {list-style: none;}
 .kh-4 {
   height: 51px;
   width: 100%; 
-  position: fixed; 
+  position: absolute; 
   z-index: 3; 
   bottom: 0px; 
   background-color: #747474;
