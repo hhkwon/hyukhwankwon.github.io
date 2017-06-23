@@ -87,7 +87,7 @@ ul {list-style: none;}
 /*2. Boolio Intro*/
 .b-i {
   margin: 10px 10px;
-  height: 610px;
+  height: 570px;
   background-color: white;
   box-shadow: 3px 3px 3px #CFCFCF;
   position: relative;
@@ -132,7 +132,7 @@ ul {list-style: none;}
   position: absolute;
   z-index: 1;
   right: 5px;
-  bottom: 60px;;
+  bottom: 30px;;
   width: 150px;
 }
 
@@ -206,11 +206,11 @@ ul {list-style: none;}
 }
 
 .w-b-img-2 {
-  width: 60px;
+  width: 58px;
 }
 
 .w-b-img-3 {
-  width: 40px; 
+  width: 48px; 
 }
 
 .w-b-img-4 {
@@ -341,8 +341,8 @@ ul {list-style: none;}
   position: absolute;
   color: #999;
   font-size: 13px;
-  right: 20px;
-  top: 0px;
+  left: 40px;
+  bottom: 20px;
 }
 
 .h-b-3 {
@@ -358,7 +358,6 @@ ul {list-style: none;}
 .h-b-4 {
   overflow: hidden;
   position: relative;
-  padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
 }
