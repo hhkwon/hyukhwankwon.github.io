@@ -467,6 +467,34 @@ ul {list-style: none;}
 }
 
 
+/* 연금펀드 배너 */
+
+.pension-banner {
+height: 60px;
+margin: 10px 10px;
+color: white;
+position: relative;
+text-align: center;
+background: #ff7e2d ; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #ff7e2d 0%, #ea2785 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #ff7e2d 0%,#ea2785 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #ff7e2d 0%,#ea2785 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7e2d ', endColorstr='#ea2785 ',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */}
+
+.pension-banner>p {
+    font-weight: 500;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.pension-banner>p>span{
+  font-size: 25px;
+  font-weight: bold;
+}
+
 /*6. 불리오 가입안내 */
 
 .info {
@@ -514,6 +542,7 @@ ul {list-style: none;}
 .info-3-right>ol {
   padding-left: 10px;   
 }
+
 
 /*키움 하단 메뉴*/
 .kh-3 {
